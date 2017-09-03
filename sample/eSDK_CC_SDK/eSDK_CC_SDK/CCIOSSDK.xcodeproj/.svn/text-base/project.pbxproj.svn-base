@@ -1,0 +1,959 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C4641EF41DC71AA4001D7825 /* CCLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = C4641EF21DC71AA4001D7825 /* CCLogger.h */; };
+		C4641EF51DC71AA4001D7825 /* CCLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = C4641EF31DC71AA4001D7825 /* CCLogger.m */; };
+		C4641EFA1DC71B1F001D7825 /* CCCallService.h in Headers */ = {isa = PBXBuildFile; fileRef = C4641EF61DC71B1F001D7825 /* CCCallService.h */; };
+		C4641EFB1DC71B1F001D7825 /* CCCallService.m in Sources */ = {isa = PBXBuildFile; fileRef = C4641EF71DC71B1F001D7825 /* CCCallService.m */; };
+		C4641EFC1DC71B1F001D7825 /* CCConfManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C4641EF81DC71B1F001D7825 /* CCConfManager.h */; };
+		C4641EFD1DC71B1F001D7825 /* CCConfManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = C4641EF91DC71B1F001D7825 /* CCConfManager.mm */; };
+		C4641F001DC71B4A001D7825 /* CCICSService.h in Headers */ = {isa = PBXBuildFile; fileRef = C4641EFE1DC71B4A001D7825 /* CCICSService.h */; };
+		C4641F011DC71B4A001D7825 /* CCICSService.m in Sources */ = {isa = PBXBuildFile; fileRef = C4641EFF1DC71B4A001D7825 /* CCICSService.m */; };
+		C4641F041DC71B96001D7825 /* CCSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = C4641F021DC71B96001D7825 /* CCSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4641F051DC71B96001D7825 /* CCSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = C4641F031DC71B96001D7825 /* CCSDK.m */; };
+		C4641F081DC71BD8001D7825 /* CCAccountInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = C4641F061DC71BD8001D7825 /* CCAccountInfo.h */; };
+		C4641F091DC71BD8001D7825 /* CCAccountInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C4641F071DC71BD8001D7825 /* CCAccountInfo.m */; };
+		C4641F0C1DC71C0D001D7825 /* CCCommonUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = C4641F0A1DC71C0D001D7825 /* CCCommonUtil.h */; };
+		C4641F0D1DC71C0D001D7825 /* CCCommonUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = C4641F0B1DC71C0D001D7825 /* CCCommonUtil.m */; };
+		C48E16441CFD3D4100F5D3DD /* CCIOSSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = C48E16431CFD3D4100F5D3DD /* CCIOSSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C48E16D91CFD3DB400F5D3DD /* CCConfCameraInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = C48E16C41CFD3DB400F5D3DD /* CCConfCameraInfo.h */; };
+		C48E16DA1CFD3DB400F5D3DD /* CCConfCameraInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C48E16C51CFD3DB400F5D3DD /* CCConfCameraInfo.m */; };
+		C48E16DB1CFD3DB400F5D3DD /* CCConfInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = C48E16C61CFD3DB400F5D3DD /* CCConfInfo.h */; };
+		C48E16DC1CFD3DB400F5D3DD /* CCConfInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C48E16C71CFD3DB400F5D3DD /* CCConfInfo.m */; };
+		C48E16DD1CFD3DB400F5D3DD /* CCConfUserInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = C48E16C81CFD3DB400F5D3DD /* CCConfUserInfo.h */; };
+		C48E16DE1CFD3DB400F5D3DD /* CCConfUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C48E16C91CFD3DB400F5D3DD /* CCConfUserInfo.m */; };
+		C48E16E51CFD3DB400F5D3DD /* CCDefineHead.h in Headers */ = {isa = PBXBuildFile; fileRef = C48E16D21CFD3DB400F5D3DD /* CCDefineHead.h */; };
+		C48E16E81CFD3DB400F5D3DD /* CCRequestClient.h in Headers */ = {isa = PBXBuildFile; fileRef = C48E16D51CFD3DB400F5D3DD /* CCRequestClient.h */; };
+		C48E16E91CFD3DB400F5D3DD /* CCRequestClient.m in Sources */ = {isa = PBXBuildFile; fileRef = C48E16D61CFD3DB400F5D3DD /* CCRequestClient.m */; };
+		C48E16EF1CFD3DC100F5D3DD /* CCNotificationsDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = C48E16EA1CFD3DC100F5D3DD /* CCNotificationsDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C48E16F01CFD3DC100F5D3DD /* CCNotificationsDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = C48E16EB1CFD3DC100F5D3DD /* CCNotificationsDefine.m */; };
+		C48E16F11CFD3DC100F5D3DD /* CCCommonDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = C48E16EC1CFD3DC100F5D3DD /* CCCommonDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4A278251D2F411B003B74F5 /* CCConstantInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = C4A278231D2F411B003B74F5 /* CCConstantInfo.h */; };
+		C4A278261D2F411B003B74F5 /* CCConstantInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A278241D2F411B003B74F5 /* CCConstantInfo.m */; };
+		CE11DCD41EAF966C005373E8 /* call_advanced_def.h in Headers */ = {isa = PBXBuildFile; fileRef = CE11DC671EAF966C005373E8 /* call_advanced_def.h */; };
+		CE11DCD51EAF966C005373E8 /* call_advanced_interface.h in Headers */ = {isa = PBXBuildFile; fileRef = CE11DC681EAF966C005373E8 /* call_advanced_interface.h */; };
+		CE11DCD61EAF966C005373E8 /* call_def.h in Headers */ = {isa = PBXBuildFile; fileRef = CE11DC691EAF966C005373E8 /* call_def.h */; };
+		CE11DCD71EAF966C005373E8 /* call_interface.h in Headers */ = {isa = PBXBuildFile; fileRef = CE11DC6A1EAF966C005373E8 /* call_interface.h */; };
+		CE11DCD81EAF966C005373E8 /* cmpt_def.h in Headers */ = {isa = PBXBuildFile; fileRef = CE11DC6B1EAF966C005373E8 /* cmpt_def.h */; };
+		CE11DCD91EAF966C005373E8 /* cmpt_interface.h in Headers */ = {isa = PBXBuildFile; fileRef = CE11DC6C1EAF966C005373E8 /* cmpt_interface.h */; };
+		CE11DCDA1EAF966C005373E8 /* dk_interface.h in Headers */ = {isa = PBXBuildFile; fileRef = CE11DC6D1EAF966C005373E8 /* dk_interface.h */; };
+		CE11DCDB1EAF966C005373E8 /* httpapi.h in Headers */ = {isa = PBXBuildFile; fileRef = CE11DC6E1EAF966C005373E8 /* httpapi.h */; };
+		CE11DCDC1EAF966C005373E8 /* login_advanced_def.h in Headers */ = {isa = PBXBuildFile; fileRef = CE11DC6F1EAF966C005373E8 /* login_advanced_def.h */; };
+		CE11DCDD1EAF966C005373E8 /* login_advanced_interface.h in Headers */ = {isa = PBXBuildFile; fileRef = CE11DC701EAF966C005373E8 /* login_advanced_interface.h */; };
+		CE11DCDE1EAF966C005373E8 /* login_def.h in Headers */ = {isa = PBXBuildFile; fileRef = CE11DC711EAF966C005373E8 /* login_def.h */; };
+		CE11DCDF1EAF966C005373E8 /* login_interface.h in Headers */ = {isa = PBXBuildFile; fileRef = CE11DC721EAF966C005373E8 /* login_interface.h */; };
+		CE11DCE01EAF966C005373E8 /* offlinefile_def.h in Headers */ = {isa = PBXBuildFile; fileRef = CE11DC731EAF966C005373E8 /* offlinefile_def.h */; };
+		CE11DCE11EAF966C005373E8 /* offlinefile_interface.h in Headers */ = {isa = PBXBuildFile; fileRef = CE11DC741EAF966C005373E8 /* offlinefile_interface.h */; };
+		CE11DCE21EAF966C005373E8 /* rsa_encrypt_interface.h in Headers */ = {isa = PBXBuildFile; fileRef = CE11DC751EAF966C005373E8 /* rsa_encrypt_interface.h */; };
+		CE11DCE31EAF966C005373E8 /* securec.h in Headers */ = {isa = PBXBuildFile; fileRef = CE11DC761EAF966C005373E8 /* securec.h */; };
+		CE11DCE41EAF966C005373E8 /* securectype.h in Headers */ = {isa = PBXBuildFile; fileRef = CE11DC771EAF966C005373E8 /* securectype.h */; };
+		CE11DCE51EAF966C005373E8 /* tup_conf_baseapi.h in Headers */ = {isa = PBXBuildFile; fileRef = CE11DC781EAF966C005373E8 /* tup_conf_baseapi.h */; };
+		CE11DCE61EAF966C005373E8 /* tup_conf_basedef.h in Headers */ = {isa = PBXBuildFile; fileRef = CE11DC791EAF966C005373E8 /* tup_conf_basedef.h */; };
+		CE11DCE71EAF966C005373E8 /* tup_conf_extendapi.h in Headers */ = {isa = PBXBuildFile; fileRef = CE11DC7A1EAF966C005373E8 /* tup_conf_extendapi.h */; };
+		CE11DCE81EAF966C005373E8 /* tup_conf_extenddef.h in Headers */ = {isa = PBXBuildFile; fileRef = CE11DC7B1EAF966C005373E8 /* tup_conf_extenddef.h */; };
+		CE11DCE91EAF966C005373E8 /* tup_conf_otherapi.h in Headers */ = {isa = PBXBuildFile; fileRef = CE11DC7C1EAF966C005373E8 /* tup_conf_otherapi.h */; };
+		CE11DCEA1EAF966C005373E8 /* tup_conf_otherdef.h in Headers */ = {isa = PBXBuildFile; fileRef = CE11DC7D1EAF966C005373E8 /* tup_conf_otherdef.h */; };
+		CE11DCEB1EAF966C005373E8 /* tup_confctrl_advanced_def.h in Headers */ = {isa = PBXBuildFile; fileRef = CE11DC7E1EAF966C005373E8 /* tup_confctrl_advanced_def.h */; };
+		CE11DCEC1EAF966C005373E8 /* tup_confctrl_advanced_interface.h in Headers */ = {isa = PBXBuildFile; fileRef = CE11DC7F1EAF966C005373E8 /* tup_confctrl_advanced_interface.h */; };
+		CE11DCED1EAF966C005373E8 /* tup_confctrl_def.h in Headers */ = {isa = PBXBuildFile; fileRef = CE11DC801EAF966C005373E8 /* tup_confctrl_def.h */; };
+		CE11DCEE1EAF966C005373E8 /* tup_confctrl_interface.h in Headers */ = {isa = PBXBuildFile; fileRef = CE11DC811EAF966C005373E8 /* tup_confctrl_interface.h */; };
+		CE11DCEF1EAF966C005373E8 /* tup_ctd_def.h in Headers */ = {isa = PBXBuildFile; fileRef = CE11DC821EAF966C005373E8 /* tup_ctd_def.h */; };
+		CE11DCF01EAF966C005373E8 /* tup_ctd_interface.h in Headers */ = {isa = PBXBuildFile; fileRef = CE11DC831EAF966C005373E8 /* tup_ctd_interface.h */; };
+		CE11DCF11EAF966C005373E8 /* tup_def.h in Headers */ = {isa = PBXBuildFile; fileRef = CE11DC841EAF966C005373E8 /* tup_def.h */; };
+		CE11DCF21EAF966C005373E8 /* tup_dns_interface.h in Headers */ = {isa = PBXBuildFile; fileRef = CE11DC851EAF966C005373E8 /* tup_dns_interface.h */; };
+		CE11DCF31EAF966C005373E8 /* tup_eaddr_def.h in Headers */ = {isa = PBXBuildFile; fileRef = CE11DC861EAF966C005373E8 /* tup_eaddr_def.h */; };
+		CE11DCF41EAF966C005373E8 /* tup_eaddr_interface.h in Headers */ = {isa = PBXBuildFile; fileRef = CE11DC871EAF966C005373E8 /* tup_eaddr_interface.h */; };
+		CE11DCF51EAF966C005373E8 /* tup_errdef.h in Headers */ = {isa = PBXBuildFile; fileRef = CE11DC881EAF966C005373E8 /* tup_errdef.h */; };
+		CE11DCF61EAF966C005373E8 /* tup_openmedia_interface.h in Headers */ = {isa = PBXBuildFile; fileRef = CE11DC891EAF966C005373E8 /* tup_openmedia_interface.h */; };
+		CE11DCF71EAF966C005373E8 /* tup_service_interface.h in Headers */ = {isa = PBXBuildFile; fileRef = CE11DC8A1EAF966C005373E8 /* tup_service_interface.h */; };
+		CE11DCF81EAF966C005373E8 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11DC8C1EAF966C005373E8 /* libcrypto.a */; };
+		CE11DCF91EAF966C005373E8 /* libcurl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11DC8D1EAF966C005373E8 /* libcurl.a */; };
+		CE11DCFA1EAF966C005373E8 /* libhme-audio.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11DC8E1EAF966C005373E8 /* libhme-audio.a */; };
+		CE11DCFB1EAF966C005373E8 /* libHME-Video.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11DC8F1EAF966C005373E8 /* libHME-Video.a */; };
+		CE11DCFC1EAF966C005373E8 /* libHW_MPT_AUDIO_AAC_LIB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11DC901EAF966C005373E8 /* libHW_MPT_AUDIO_AAC_LIB.a */; };
+		CE11DCFD1EAF966C005373E8 /* libHW_MPT_IOS_AMR_LIB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11DC911EAF966C005373E8 /* libHW_MPT_IOS_AMR_LIB.a */; };
+		CE11DCFE1EAF966C005373E8 /* libHW_MPT_IOS_AMRWB_LIB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11DC921EAF966C005373E8 /* libHW_MPT_IOS_AMRWB_LIB.a */; };
+		CE11DCFF1EAF966C005373E8 /* libHW_MPT_IOS_G722_LIB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11DC931EAF966C005373E8 /* libHW_MPT_IOS_G722_LIB.a */; };
+		CE11DD001EAF966C005373E8 /* libHW_MPT_IOS_G729AB_LIB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11DC941EAF966C005373E8 /* libHW_MPT_IOS_G729AB_LIB.a */; };
+		CE11DD011EAF966C005373E8 /* libHW_MPT_IOS_ILBC_LIB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11DC951EAF966C005373E8 /* libHW_MPT_IOS_ILBC_LIB.a */; };
+		CE11DD021EAF966C005373E8 /* libHW_MPT_IOS_OPUS_LIB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11DC961EAF966C005373E8 /* libHW_MPT_IOS_OPUS_LIB.a */; };
+		CE11DD031EAF966C005373E8 /* libipsi_crypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11DC971EAF966C005373E8 /* libipsi_crypto.a */; };
+		CE11DD041EAF966C005373E8 /* libipsi_eap.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11DC981EAF966C005373E8 /* libipsi_eap.a */; };
+		CE11DD051EAF966C005373E8 /* libipsi_osal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11DC991EAF966C005373E8 /* libipsi_osal.a */; };
+		CE11DD061EAF966C005373E8 /* libipsi_pse.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11DC9A1EAF966C005373E8 /* libipsi_pse.a */; };
+		CE11DD071EAF966C005373E8 /* libipsi_ssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11DC9B1EAF966C005373E8 /* libipsi_ssl.a */; };
+		CE11DD081EAF966C005373E8 /* libjsoncpp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11DC9C1EAF966C005373E8 /* libjsoncpp.a */; };
+		CE11DD091EAF966C005373E8 /* libminidopra.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11DC9D1EAF966C005373E8 /* libminidopra.a */; };
+		CE11DD0A1EAF966C005373E8 /* libplib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11DC9E1EAF966C005373E8 /* libplib.a */; };
+		CE11DD0B1EAF966C005373E8 /* libsasl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11DC9F1EAF966C005373E8 /* libsasl.a */; };
+		CE11DD0C1EAF966C005373E8 /* libsdp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11DCA01EAF966C005373E8 /* libsdp.a */; };
+		CE11DD0D1EAF966C005373E8 /* libsecurec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11DCA11EAF966C005373E8 /* libsecurec.a */; };
+		CE11DD0E1EAF966C005373E8 /* libsipstacktup.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11DCA21EAF966C005373E8 /* libsipstacktup.a */; };
+		CE11DD0F1EAF966C005373E8 /* libsrtp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11DCA31EAF966C005373E8 /* libsrtp.a */; };
+		CE11DD101EAF966C005373E8 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11DCA41EAF966C005373E8 /* libssl.a */; };
+		CE11DD111EAF966C005373E8 /* libtscios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11DCA51EAF966C005373E8 /* libtscios.a */; };
+		CE11DD121EAF966C005373E8 /* libtscsvn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11DCA61EAF966C005373E8 /* libtscsvn.a */; };
+		CE11DD131EAF966C005373E8 /* libtup_call_audio.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11DCA71EAF966C005373E8 /* libtup_call_audio.a */; };
+		CE11DD141EAF966C005373E8 /* libtup_call_bfcp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11DCA81EAF966C005373E8 /* libtup_call_bfcp.a */; };
+		CE11DD151EAF966C005373E8 /* libtup_call_mediacommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11DCA91EAF966C005373E8 /* libtup_call_mediacommon.a */; };
+		CE11DD161EAF966C005373E8 /* libtup_call_mediaservice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11DCAA1EAF966C005373E8 /* libtup_call_mediaservice.a */; };
+		CE11DD171EAF966C005373E8 /* libtup_call_service.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11DCAB1EAF966C005373E8 /* libtup_call_service.a */; };
+		CE11DD181EAF966C005373E8 /* libtup_call_sip.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11DCAC1EAF966C005373E8 /* libtup_call_sip.a */; };
+		CE11DD191EAF966C005373E8 /* libtup_call_video.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11DCAD1EAF966C005373E8 /* libtup_call_video.a */; };
+		CE11DD1A1EAF966C005373E8 /* libtup_cloudrecord.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11DCAE1EAF966C005373E8 /* libtup_cloudrecord.a */; };
+		CE11DD1B1EAF966C005373E8 /* libtup_cmpt_service.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11DCAF1EAF966C005373E8 /* libtup_cmpt_service.a */; };
+		CE11DD1C1EAF966C005373E8 /* libtup_commonlib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11DCB01EAF966C005373E8 /* libtup_commonlib.a */; };
+		CE11DD1D1EAF966C005373E8 /* libtup_confctrl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11DCB11EAF966C005373E8 /* libtup_confctrl.a */; };
+		CE11DD1E1EAF966C005373E8 /* libtup_confmng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11DCB21EAF966C005373E8 /* libtup_confmng.a */; };
+		CE11DD1F1EAF966C005373E8 /* libtup_corpdirectory.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11DCB31EAF966C005373E8 /* libtup_corpdirectory.a */; };
+		CE11DD201EAF966C005373E8 /* libtup_ctd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11DCB41EAF966C005373E8 /* libtup_ctd.a */; };
+		CE11DD211EAF966C005373E8 /* libtup_cwmp_h5.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11DCB51EAF966C005373E8 /* libtup_cwmp_h5.a */; };
+		CE11DD221EAF966C005373E8 /* libtup_dns.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11DCB61EAF966C005373E8 /* libtup_dns.a */; };
+		CE11DD231EAF966C005373E8 /* libtup_eaddr.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11DCB71EAF966C005373E8 /* libtup_eaddr.a */; };
+		CE11DD241EAF966C005373E8 /* libtup_eaddr_h5.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11DCB81EAF966C005373E8 /* libtup_eaddr_h5.a */; };
+		CE11DD251EAF966C005373E8 /* libtup_exception.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11DCB91EAF966C005373E8 /* libtup_exception.a */; };
+		CE11DD261EAF966C005373E8 /* libtup_ftp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11DCBA1EAF966C005373E8 /* libtup_ftp.a */; };
+		CE11DD271EAF966C005373E8 /* libtup_httpofflinefile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11DCBB1EAF966C005373E8 /* libtup_httpofflinefile.a */; };
+		CE11DD281EAF966C005373E8 /* libtup_https_clt.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11DCBC1EAF966C005373E8 /* libtup_https_clt.a */; };
+		CE11DD291EAF966C005373E8 /* libtup_https_srv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11DCBD1EAF966C005373E8 /* libtup_https_srv.a */; };
+		CE11DD2A1EAF966C005373E8 /* libtup_httptrans.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11DCBE1EAF966C005373E8 /* libtup_httptrans.a */; };
+		CE11DD2B1EAF966C005373E8 /* libtup_ipdetect.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11DCBF1EAF966C005373E8 /* libtup_ipdetect.a */; };
+		CE11DD2C1EAF966C005373E8 /* libtup_ldap.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11DCC01EAF966C005373E8 /* libtup_ldap.a */; };
+		CE11DD2D1EAF966C005373E8 /* libtup_ldapdisasterrecovery.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11DCC11EAF966C005373E8 /* libtup_ldapdisasterrecovery.a */; };
+		CE11DD2E1EAF966C005373E8 /* libtup_ldapfrontstage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11DCC21EAF966C005373E8 /* libtup_ldapfrontstage.a */; };
+		CE11DD2F1EAF966C005373E8 /* libtup_ldapstack.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11DCC31EAF966C005373E8 /* libtup_ldapstack.a */; };
+		CE11DD301EAF966C005373E8 /* libtup_login.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11DCC41EAF966C005373E8 /* libtup_login.a */; };
+		CE11DD311EAF966C005373E8 /* libtup_logone.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11DCC51EAF966C005373E8 /* libtup_logone.a */; };
+		CE11DD321EAF966C005373E8 /* libtup_msg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11DCC61EAF966C005373E8 /* libtup_msg.a */; };
+		CE11DD331EAF966C005373E8 /* libtup_openmedia.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11DCC71EAF966C005373E8 /* libtup_openmedia.a */; };
+		CE11DD341EAF966C005373E8 /* libtup_os_adapter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11DCC81EAF966C005373E8 /* libtup_os_adapter.a */; };
+		CE11DD351EAF966C005373E8 /* libtup_publiclib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11DCC91EAF966C005373E8 /* libtup_publiclib.a */; };
+		CE11DD361EAF966C005373E8 /* libtup_rsa_encrypt.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11DCCA1EAF966C005373E8 /* libtup_rsa_encrypt.a */; };
+		CE11DD371EAF966C005373E8 /* libtup_socket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11DCCB1EAF966C005373E8 /* libtup_socket.a */; };
+		CE11DD381EAF966C005373E8 /* libtup_socket_stg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11DCCC1EAF966C005373E8 /* libtup_socket_stg.a */; };
+		CE11DD391EAF966C005373E8 /* libtup_support.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11DCCD1EAF966C005373E8 /* libtup_support.a */; };
+		CE11DD3A1EAF966C005373E8 /* libtup_xml.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11DCCE1EAF966C005373E8 /* libtup_xml.a */; };
+		CE11DD3B1EAF966D005373E8 /* libTupConf.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11DCCF1EAF966C005373E8 /* libTupConf.a */; };
+		CE11DD3C1EAF966D005373E8 /* libtupService.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11DCD01EAF966C005373E8 /* libtupService.a */; };
+		CE11DD3D1EAF966D005373E8 /* libuspsdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11DCD11EAF966C005373E8 /* libuspsdk.a */; };
+		CE11DD3E1EAF966D005373E8 /* libvcom.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11DCD21EAF966C005373E8 /* libvcom.a */; };
+		CE11DD3F1EAF966D005373E8 /* libwebsockets.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE11DCD31EAF966C005373E8 /* libwebsockets.a */; };
+		CEACBFC41E6EA51700E27FE5 /* libsvnapi_sim.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEACBFC31E6EA51700E27FE5 /* libsvnapi_sim.a */; };
+		CECA72111E4D8FBD000EB9E7 /* libsvnapi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CECA71A01E4D8FBD000EB9E7 /* libsvnapi.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C4641EF21DC71AA4001D7825 /* CCLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCLogger.h; sourceTree = "<group>"; };
+		C4641EF31DC71AA4001D7825 /* CCLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCLogger.m; sourceTree = "<group>"; };
+		C4641EF61DC71B1F001D7825 /* CCCallService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCCallService.h; sourceTree = "<group>"; };
+		C4641EF71DC71B1F001D7825 /* CCCallService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCCallService.m; sourceTree = "<group>"; };
+		C4641EF81DC71B1F001D7825 /* CCConfManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCConfManager.h; sourceTree = "<group>"; };
+		C4641EF91DC71B1F001D7825 /* CCConfManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CCConfManager.mm; sourceTree = "<group>"; };
+		C4641EFE1DC71B4A001D7825 /* CCICSService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCICSService.h; sourceTree = "<group>"; };
+		C4641EFF1DC71B4A001D7825 /* CCICSService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCICSService.m; sourceTree = "<group>"; };
+		C4641F021DC71B96001D7825 /* CCSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCSDK.h; sourceTree = "<group>"; };
+		C4641F031DC71B96001D7825 /* CCSDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCSDK.m; sourceTree = "<group>"; };
+		C4641F061DC71BD8001D7825 /* CCAccountInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCAccountInfo.h; sourceTree = "<group>"; };
+		C4641F071DC71BD8001D7825 /* CCAccountInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCAccountInfo.m; sourceTree = "<group>"; };
+		C4641F0A1DC71C0D001D7825 /* CCCommonUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCCommonUtil.h; sourceTree = "<group>"; };
+		C4641F0B1DC71C0D001D7825 /* CCCommonUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCCommonUtil.m; sourceTree = "<group>"; };
+		C48E16401CFD3D4100F5D3DD /* CCIOSSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CCIOSSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C48E16431CFD3D4100F5D3DD /* CCIOSSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCIOSSDK.h; sourceTree = "<group>"; };
+		C48E16451CFD3D4100F5D3DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C48E16C41CFD3DB400F5D3DD /* CCConfCameraInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCConfCameraInfo.h; sourceTree = "<group>"; };
+		C48E16C51CFD3DB400F5D3DD /* CCConfCameraInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCConfCameraInfo.m; sourceTree = "<group>"; };
+		C48E16C61CFD3DB400F5D3DD /* CCConfInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCConfInfo.h; sourceTree = "<group>"; };
+		C48E16C71CFD3DB400F5D3DD /* CCConfInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCConfInfo.m; sourceTree = "<group>"; };
+		C48E16C81CFD3DB400F5D3DD /* CCConfUserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCConfUserInfo.h; sourceTree = "<group>"; };
+		C48E16C91CFD3DB400F5D3DD /* CCConfUserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCConfUserInfo.m; sourceTree = "<group>"; };
+		C48E16D21CFD3DB400F5D3DD /* CCDefineHead.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCDefineHead.h; sourceTree = "<group>"; };
+		C48E16D51CFD3DB400F5D3DD /* CCRequestClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCRequestClient.h; sourceTree = "<group>"; };
+		C48E16D61CFD3DB400F5D3DD /* CCRequestClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCRequestClient.m; sourceTree = "<group>"; };
+		C48E16EA1CFD3DC100F5D3DD /* CCNotificationsDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCNotificationsDefine.h; sourceTree = "<group>"; };
+		C48E16EB1CFD3DC100F5D3DD /* CCNotificationsDefine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCNotificationsDefine.m; sourceTree = "<group>"; };
+		C48E16EC1CFD3DC100F5D3DD /* CCCommonDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCCommonDefine.h; sourceTree = "<group>"; };
+		C4A278231D2F411B003B74F5 /* CCConstantInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCConstantInfo.h; sourceTree = "<group>"; };
+		C4A278241D2F411B003B74F5 /* CCConstantInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCConstantInfo.m; sourceTree = "<group>"; };
+		CE11DC671EAF966C005373E8 /* call_advanced_def.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = call_advanced_def.h; sourceTree = "<group>"; };
+		CE11DC681EAF966C005373E8 /* call_advanced_interface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = call_advanced_interface.h; sourceTree = "<group>"; };
+		CE11DC691EAF966C005373E8 /* call_def.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = call_def.h; sourceTree = "<group>"; };
+		CE11DC6A1EAF966C005373E8 /* call_interface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = call_interface.h; sourceTree = "<group>"; };
+		CE11DC6B1EAF966C005373E8 /* cmpt_def.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cmpt_def.h; sourceTree = "<group>"; };
+		CE11DC6C1EAF966C005373E8 /* cmpt_interface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cmpt_interface.h; sourceTree = "<group>"; };
+		CE11DC6D1EAF966C005373E8 /* dk_interface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dk_interface.h; sourceTree = "<group>"; };
+		CE11DC6E1EAF966C005373E8 /* httpapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = httpapi.h; sourceTree = "<group>"; };
+		CE11DC6F1EAF966C005373E8 /* login_advanced_def.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = login_advanced_def.h; sourceTree = "<group>"; };
+		CE11DC701EAF966C005373E8 /* login_advanced_interface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = login_advanced_interface.h; sourceTree = "<group>"; };
+		CE11DC711EAF966C005373E8 /* login_def.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = login_def.h; sourceTree = "<group>"; };
+		CE11DC721EAF966C005373E8 /* login_interface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = login_interface.h; sourceTree = "<group>"; };
+		CE11DC731EAF966C005373E8 /* offlinefile_def.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = offlinefile_def.h; sourceTree = "<group>"; };
+		CE11DC741EAF966C005373E8 /* offlinefile_interface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = offlinefile_interface.h; sourceTree = "<group>"; };
+		CE11DC751EAF966C005373E8 /* rsa_encrypt_interface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rsa_encrypt_interface.h; sourceTree = "<group>"; };
+		CE11DC761EAF966C005373E8 /* securec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = securec.h; sourceTree = "<group>"; };
+		CE11DC771EAF966C005373E8 /* securectype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = securectype.h; sourceTree = "<group>"; };
+		CE11DC781EAF966C005373E8 /* tup_conf_baseapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tup_conf_baseapi.h; sourceTree = "<group>"; };
+		CE11DC791EAF966C005373E8 /* tup_conf_basedef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tup_conf_basedef.h; sourceTree = "<group>"; };
+		CE11DC7A1EAF966C005373E8 /* tup_conf_extendapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tup_conf_extendapi.h; sourceTree = "<group>"; };
+		CE11DC7B1EAF966C005373E8 /* tup_conf_extenddef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tup_conf_extenddef.h; sourceTree = "<group>"; };
+		CE11DC7C1EAF966C005373E8 /* tup_conf_otherapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tup_conf_otherapi.h; sourceTree = "<group>"; };
+		CE11DC7D1EAF966C005373E8 /* tup_conf_otherdef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tup_conf_otherdef.h; sourceTree = "<group>"; };
+		CE11DC7E1EAF966C005373E8 /* tup_confctrl_advanced_def.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tup_confctrl_advanced_def.h; sourceTree = "<group>"; };
+		CE11DC7F1EAF966C005373E8 /* tup_confctrl_advanced_interface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tup_confctrl_advanced_interface.h; sourceTree = "<group>"; };
+		CE11DC801EAF966C005373E8 /* tup_confctrl_def.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tup_confctrl_def.h; sourceTree = "<group>"; };
+		CE11DC811EAF966C005373E8 /* tup_confctrl_interface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tup_confctrl_interface.h; sourceTree = "<group>"; };
+		CE11DC821EAF966C005373E8 /* tup_ctd_def.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tup_ctd_def.h; sourceTree = "<group>"; };
+		CE11DC831EAF966C005373E8 /* tup_ctd_interface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tup_ctd_interface.h; sourceTree = "<group>"; };
+		CE11DC841EAF966C005373E8 /* tup_def.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tup_def.h; sourceTree = "<group>"; };
+		CE11DC851EAF966C005373E8 /* tup_dns_interface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tup_dns_interface.h; sourceTree = "<group>"; };
+		CE11DC861EAF966C005373E8 /* tup_eaddr_def.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tup_eaddr_def.h; sourceTree = "<group>"; };
+		CE11DC871EAF966C005373E8 /* tup_eaddr_interface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tup_eaddr_interface.h; sourceTree = "<group>"; };
+		CE11DC881EAF966C005373E8 /* tup_errdef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tup_errdef.h; sourceTree = "<group>"; };
+		CE11DC891EAF966C005373E8 /* tup_openmedia_interface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tup_openmedia_interface.h; sourceTree = "<group>"; };
+		CE11DC8A1EAF966C005373E8 /* tup_service_interface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tup_service_interface.h; sourceTree = "<group>"; };
+		CE11DC8C1EAF966C005373E8 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
+		CE11DC8D1EAF966C005373E8 /* libcurl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcurl.a; sourceTree = "<group>"; };
+		CE11DC8E1EAF966C005373E8 /* libhme-audio.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libhme-audio.a"; sourceTree = "<group>"; };
+		CE11DC8F1EAF966C005373E8 /* libHME-Video.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libHME-Video.a"; sourceTree = "<group>"; };
+		CE11DC901EAF966C005373E8 /* libHW_MPT_AUDIO_AAC_LIB.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libHW_MPT_AUDIO_AAC_LIB.a; sourceTree = "<group>"; };
+		CE11DC911EAF966C005373E8 /* libHW_MPT_IOS_AMR_LIB.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libHW_MPT_IOS_AMR_LIB.a; sourceTree = "<group>"; };
+		CE11DC921EAF966C005373E8 /* libHW_MPT_IOS_AMRWB_LIB.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libHW_MPT_IOS_AMRWB_LIB.a; sourceTree = "<group>"; };
+		CE11DC931EAF966C005373E8 /* libHW_MPT_IOS_G722_LIB.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libHW_MPT_IOS_G722_LIB.a; sourceTree = "<group>"; };
+		CE11DC941EAF966C005373E8 /* libHW_MPT_IOS_G729AB_LIB.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libHW_MPT_IOS_G729AB_LIB.a; sourceTree = "<group>"; };
+		CE11DC951EAF966C005373E8 /* libHW_MPT_IOS_ILBC_LIB.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libHW_MPT_IOS_ILBC_LIB.a; sourceTree = "<group>"; };
+		CE11DC961EAF966C005373E8 /* libHW_MPT_IOS_OPUS_LIB.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libHW_MPT_IOS_OPUS_LIB.a; sourceTree = "<group>"; };
+		CE11DC971EAF966C005373E8 /* libipsi_crypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libipsi_crypto.a; sourceTree = "<group>"; };
+		CE11DC981EAF966C005373E8 /* libipsi_eap.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libipsi_eap.a; sourceTree = "<group>"; };
+		CE11DC991EAF966C005373E8 /* libipsi_osal.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libipsi_osal.a; sourceTree = "<group>"; };
+		CE11DC9A1EAF966C005373E8 /* libipsi_pse.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libipsi_pse.a; sourceTree = "<group>"; };
+		CE11DC9B1EAF966C005373E8 /* libipsi_ssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libipsi_ssl.a; sourceTree = "<group>"; };
+		CE11DC9C1EAF966C005373E8 /* libjsoncpp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libjsoncpp.a; sourceTree = "<group>"; };
+		CE11DC9D1EAF966C005373E8 /* libminidopra.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libminidopra.a; sourceTree = "<group>"; };
+		CE11DC9E1EAF966C005373E8 /* libplib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libplib.a; sourceTree = "<group>"; };
+		CE11DC9F1EAF966C005373E8 /* libsasl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libsasl.a; sourceTree = "<group>"; };
+		CE11DCA01EAF966C005373E8 /* libsdp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libsdp.a; sourceTree = "<group>"; };
+		CE11DCA11EAF966C005373E8 /* libsecurec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libsecurec.a; sourceTree = "<group>"; };
+		CE11DCA21EAF966C005373E8 /* libsipstacktup.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libsipstacktup.a; sourceTree = "<group>"; };
+		CE11DCA31EAF966C005373E8 /* libsrtp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libsrtp.a; sourceTree = "<group>"; };
+		CE11DCA41EAF966C005373E8 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
+		CE11DCA51EAF966C005373E8 /* libtscios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtscios.a; sourceTree = "<group>"; };
+		CE11DCA61EAF966C005373E8 /* libtscsvn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtscsvn.a; sourceTree = "<group>"; };
+		CE11DCA71EAF966C005373E8 /* libtup_call_audio.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtup_call_audio.a; sourceTree = "<group>"; };
+		CE11DCA81EAF966C005373E8 /* libtup_call_bfcp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtup_call_bfcp.a; sourceTree = "<group>"; };
+		CE11DCA91EAF966C005373E8 /* libtup_call_mediacommon.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtup_call_mediacommon.a; sourceTree = "<group>"; };
+		CE11DCAA1EAF966C005373E8 /* libtup_call_mediaservice.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtup_call_mediaservice.a; sourceTree = "<group>"; };
+		CE11DCAB1EAF966C005373E8 /* libtup_call_service.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtup_call_service.a; sourceTree = "<group>"; };
+		CE11DCAC1EAF966C005373E8 /* libtup_call_sip.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtup_call_sip.a; sourceTree = "<group>"; };
+		CE11DCAD1EAF966C005373E8 /* libtup_call_video.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtup_call_video.a; sourceTree = "<group>"; };
+		CE11DCAE1EAF966C005373E8 /* libtup_cloudrecord.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtup_cloudrecord.a; sourceTree = "<group>"; };
+		CE11DCAF1EAF966C005373E8 /* libtup_cmpt_service.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtup_cmpt_service.a; sourceTree = "<group>"; };
+		CE11DCB01EAF966C005373E8 /* libtup_commonlib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtup_commonlib.a; sourceTree = "<group>"; };
+		CE11DCB11EAF966C005373E8 /* libtup_confctrl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtup_confctrl.a; sourceTree = "<group>"; };
+		CE11DCB21EAF966C005373E8 /* libtup_confmng.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtup_confmng.a; sourceTree = "<group>"; };
+		CE11DCB31EAF966C005373E8 /* libtup_corpdirectory.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtup_corpdirectory.a; sourceTree = "<group>"; };
+		CE11DCB41EAF966C005373E8 /* libtup_ctd.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtup_ctd.a; sourceTree = "<group>"; };
+		CE11DCB51EAF966C005373E8 /* libtup_cwmp_h5.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtup_cwmp_h5.a; sourceTree = "<group>"; };
+		CE11DCB61EAF966C005373E8 /* libtup_dns.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtup_dns.a; sourceTree = "<group>"; };
+		CE11DCB71EAF966C005373E8 /* libtup_eaddr.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtup_eaddr.a; sourceTree = "<group>"; };
+		CE11DCB81EAF966C005373E8 /* libtup_eaddr_h5.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtup_eaddr_h5.a; sourceTree = "<group>"; };
+		CE11DCB91EAF966C005373E8 /* libtup_exception.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtup_exception.a; sourceTree = "<group>"; };
+		CE11DCBA1EAF966C005373E8 /* libtup_ftp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtup_ftp.a; sourceTree = "<group>"; };
+		CE11DCBB1EAF966C005373E8 /* libtup_httpofflinefile.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtup_httpofflinefile.a; sourceTree = "<group>"; };
+		CE11DCBC1EAF966C005373E8 /* libtup_https_clt.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtup_https_clt.a; sourceTree = "<group>"; };
+		CE11DCBD1EAF966C005373E8 /* libtup_https_srv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtup_https_srv.a; sourceTree = "<group>"; };
+		CE11DCBE1EAF966C005373E8 /* libtup_httptrans.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtup_httptrans.a; sourceTree = "<group>"; };
+		CE11DCBF1EAF966C005373E8 /* libtup_ipdetect.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtup_ipdetect.a; sourceTree = "<group>"; };
+		CE11DCC01EAF966C005373E8 /* libtup_ldap.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtup_ldap.a; sourceTree = "<group>"; };
+		CE11DCC11EAF966C005373E8 /* libtup_ldapdisasterrecovery.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtup_ldapdisasterrecovery.a; sourceTree = "<group>"; };
+		CE11DCC21EAF966C005373E8 /* libtup_ldapfrontstage.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtup_ldapfrontstage.a; sourceTree = "<group>"; };
+		CE11DCC31EAF966C005373E8 /* libtup_ldapstack.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtup_ldapstack.a; sourceTree = "<group>"; };
+		CE11DCC41EAF966C005373E8 /* libtup_login.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtup_login.a; sourceTree = "<group>"; };
+		CE11DCC51EAF966C005373E8 /* libtup_logone.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtup_logone.a; sourceTree = "<group>"; };
+		CE11DCC61EAF966C005373E8 /* libtup_msg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtup_msg.a; sourceTree = "<group>"; };
+		CE11DCC71EAF966C005373E8 /* libtup_openmedia.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtup_openmedia.a; sourceTree = "<group>"; };
+		CE11DCC81EAF966C005373E8 /* libtup_os_adapter.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtup_os_adapter.a; sourceTree = "<group>"; };
+		CE11DCC91EAF966C005373E8 /* libtup_publiclib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtup_publiclib.a; sourceTree = "<group>"; };
+		CE11DCCA1EAF966C005373E8 /* libtup_rsa_encrypt.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtup_rsa_encrypt.a; sourceTree = "<group>"; };
+		CE11DCCB1EAF966C005373E8 /* libtup_socket.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtup_socket.a; sourceTree = "<group>"; };
+		CE11DCCC1EAF966C005373E8 /* libtup_socket_stg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtup_socket_stg.a; sourceTree = "<group>"; };
+		CE11DCCD1EAF966C005373E8 /* libtup_support.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtup_support.a; sourceTree = "<group>"; };
+		CE11DCCE1EAF966C005373E8 /* libtup_xml.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtup_xml.a; sourceTree = "<group>"; };
+		CE11DCCF1EAF966C005373E8 /* libTupConf.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTupConf.a; sourceTree = "<group>"; };
+		CE11DCD01EAF966C005373E8 /* libtupService.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libtupService.a; sourceTree = "<group>"; };
+		CE11DCD11EAF966C005373E8 /* libuspsdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libuspsdk.a; sourceTree = "<group>"; };
+		CE11DCD21EAF966C005373E8 /* libvcom.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libvcom.a; sourceTree = "<group>"; };
+		CE11DCD31EAF966C005373E8 /* libwebsockets.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libwebsockets.a; sourceTree = "<group>"; };
+		CEACBFC31E6EA51700E27FE5 /* libsvnapi_sim.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libsvnapi_sim.a; sourceTree = "<group>"; };
+		CECA71A01E4D8FBD000EB9E7 /* libsvnapi.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libsvnapi.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C48E163C1CFD3D4100F5D3DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE11DD221EAF966C005373E8 /* libtup_dns.a in Frameworks */,
+				CE11DD291EAF966C005373E8 /* libtup_https_srv.a in Frameworks */,
+				CEACBFC41E6EA51700E27FE5 /* libsvnapi_sim.a in Frameworks */,
+				CE11DD1C1EAF966C005373E8 /* libtup_commonlib.a in Frameworks */,
+				CE11DCFC1EAF966C005373E8 /* libHW_MPT_AUDIO_AAC_LIB.a in Frameworks */,
+				CE11DD281EAF966C005373E8 /* libtup_https_clt.a in Frameworks */,
+				CE11DD351EAF966C005373E8 /* libtup_publiclib.a in Frameworks */,
+				CE11DD241EAF966C005373E8 /* libtup_eaddr_h5.a in Frameworks */,
+				CE11DD1E1EAF966C005373E8 /* libtup_confmng.a in Frameworks */,
+				CE11DD361EAF966C005373E8 /* libtup_rsa_encrypt.a in Frameworks */,
+				CE11DD101EAF966C005373E8 /* libssl.a in Frameworks */,
+				CE11DD301EAF966C005373E8 /* libtup_login.a in Frameworks */,
+				CE11DD0F1EAF966C005373E8 /* libsrtp.a in Frameworks */,
+				CE11DD081EAF966C005373E8 /* libjsoncpp.a in Frameworks */,
+				CE11DD121EAF966C005373E8 /* libtscsvn.a in Frameworks */,
+				CE11DD381EAF966C005373E8 /* libtup_socket_stg.a in Frameworks */,
+				CE11DCFF1EAF966C005373E8 /* libHW_MPT_IOS_G722_LIB.a in Frameworks */,
+				CE11DD1B1EAF966C005373E8 /* libtup_cmpt_service.a in Frameworks */,
+				CE11DCFE1EAF966C005373E8 /* libHW_MPT_IOS_AMRWB_LIB.a in Frameworks */,
+				CE11DD1F1EAF966C005373E8 /* libtup_corpdirectory.a in Frameworks */,
+				CE11DD2A1EAF966C005373E8 /* libtup_httptrans.a in Frameworks */,
+				CE11DD371EAF966C005373E8 /* libtup_socket.a in Frameworks */,
+				CE11DCF91EAF966C005373E8 /* libcurl.a in Frameworks */,
+				CE11DD3C1EAF966D005373E8 /* libtupService.a in Frameworks */,
+				CE11DD391EAF966C005373E8 /* libtup_support.a in Frameworks */,
+				CE11DD3F1EAF966D005373E8 /* libwebsockets.a in Frameworks */,
+				CE11DD171EAF966C005373E8 /* libtup_call_service.a in Frameworks */,
+				CE11DD061EAF966C005373E8 /* libipsi_pse.a in Frameworks */,
+				CE11DD3D1EAF966D005373E8 /* libuspsdk.a in Frameworks */,
+				CE11DD091EAF966C005373E8 /* libminidopra.a in Frameworks */,
+				CE11DD3A1EAF966C005373E8 /* libtup_xml.a in Frameworks */,
+				CE11DD0B1EAF966C005373E8 /* libsasl.a in Frameworks */,
+				CE11DD211EAF966C005373E8 /* libtup_cwmp_h5.a in Frameworks */,
+				CE11DD141EAF966C005373E8 /* libtup_call_bfcp.a in Frameworks */,
+				CE11DD1A1EAF966C005373E8 /* libtup_cloudrecord.a in Frameworks */,
+				CE11DCFD1EAF966C005373E8 /* libHW_MPT_IOS_AMR_LIB.a in Frameworks */,
+				CE11DD231EAF966C005373E8 /* libtup_eaddr.a in Frameworks */,
+				CE11DD2F1EAF966C005373E8 /* libtup_ldapstack.a in Frameworks */,
+				CE11DD201EAF966C005373E8 /* libtup_ctd.a in Frameworks */,
+				CE11DD1D1EAF966C005373E8 /* libtup_confctrl.a in Frameworks */,
+				CE11DD2B1EAF966C005373E8 /* libtup_ipdetect.a in Frameworks */,
+				CE11DD0E1EAF966C005373E8 /* libsipstacktup.a in Frameworks */,
+				CE11DD2C1EAF966C005373E8 /* libtup_ldap.a in Frameworks */,
+				CE11DD071EAF966C005373E8 /* libipsi_ssl.a in Frameworks */,
+				CE11DD181EAF966C005373E8 /* libtup_call_sip.a in Frameworks */,
+				CE11DD341EAF966C005373E8 /* libtup_os_adapter.a in Frameworks */,
+				CE11DD2D1EAF966C005373E8 /* libtup_ldapdisasterrecovery.a in Frameworks */,
+				CE11DD011EAF966C005373E8 /* libHW_MPT_IOS_ILBC_LIB.a in Frameworks */,
+				CE11DD0D1EAF966C005373E8 /* libsecurec.a in Frameworks */,
+				CE11DD051EAF966C005373E8 /* libipsi_osal.a in Frameworks */,
+				CECA72111E4D8FBD000EB9E7 /* libsvnapi.a in Frameworks */,
+				CE11DCF81EAF966C005373E8 /* libcrypto.a in Frameworks */,
+				CE11DD3E1EAF966D005373E8 /* libvcom.a in Frameworks */,
+				CE11DD191EAF966C005373E8 /* libtup_call_video.a in Frameworks */,
+				CE11DD0A1EAF966C005373E8 /* libplib.a in Frameworks */,
+				CE11DD031EAF966C005373E8 /* libipsi_crypto.a in Frameworks */,
+				CE11DD161EAF966C005373E8 /* libtup_call_mediaservice.a in Frameworks */,
+				CE11DD3B1EAF966D005373E8 /* libTupConf.a in Frameworks */,
+				CE11DCFB1EAF966C005373E8 /* libHME-Video.a in Frameworks */,
+				CE11DD111EAF966C005373E8 /* libtscios.a in Frameworks */,
+				CE11DD131EAF966C005373E8 /* libtup_call_audio.a in Frameworks */,
+				CE11DD311EAF966C005373E8 /* libtup_logone.a in Frameworks */,
+				CE11DD261EAF966C005373E8 /* libtup_ftp.a in Frameworks */,
+				CE11DD001EAF966C005373E8 /* libHW_MPT_IOS_G729AB_LIB.a in Frameworks */,
+				CE11DD151EAF966C005373E8 /* libtup_call_mediacommon.a in Frameworks */,
+				CE11DD0C1EAF966C005373E8 /* libsdp.a in Frameworks */,
+				CE11DCFA1EAF966C005373E8 /* libhme-audio.a in Frameworks */,
+				CE11DD041EAF966C005373E8 /* libipsi_eap.a in Frameworks */,
+				CE11DD021EAF966C005373E8 /* libHW_MPT_IOS_OPUS_LIB.a in Frameworks */,
+				CE11DD321EAF966C005373E8 /* libtup_msg.a in Frameworks */,
+				CE11DD251EAF966C005373E8 /* libtup_exception.a in Frameworks */,
+				CE11DD2E1EAF966C005373E8 /* libtup_ldapfrontstage.a in Frameworks */,
+				CE11DD331EAF966C005373E8 /* libtup_openmedia.a in Frameworks */,
+				CE11DD271EAF966C005373E8 /* libtup_httpofflinefile.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C48E16361CFD3D4100F5D3DD = {
+			isa = PBXGroup;
+			children = (
+				C48E164B1CFD3DAA00F5D3DD /* Depend */,
+				C48E16421CFD3D4100F5D3DD /* CCIOSSDK */,
+				C48E16411CFD3D4100F5D3DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C48E16411CFD3D4100F5D3DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C48E16401CFD3D4100F5D3DD /* CCIOSSDK.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C48E16421CFD3D4100F5D3DD /* CCIOSSDK */ = {
+			isa = PBXGroup;
+			children = (
+				C4A278331D349D42003B74F5 /* Log */,
+				C48E16C01CFD3DB400F5D3DD /* Call */,
+				C48E16C31CFD3DB400F5D3DD /* CConf */,
+				C48E16CA1CFD3DB400F5D3DD /* TupManager */,
+				C48E16CF1CFD3DB400F5D3DD /* Utils */,
+				C48E16431CFD3D4100F5D3DD /* CCIOSSDK.h */,
+				C4641F021DC71B96001D7825 /* CCSDK.h */,
+				C4641F031DC71B96001D7825 /* CCSDK.m */,
+				C48E16EA1CFD3DC100F5D3DD /* CCNotificationsDefine.h */,
+				C48E16EB1CFD3DC100F5D3DD /* CCNotificationsDefine.m */,
+				C48E16EC1CFD3DC100F5D3DD /* CCCommonDefine.h */,
+				C48E16451CFD3D4100F5D3DD /* Info.plist */,
+			);
+			path = CCIOSSDK;
+			sourceTree = "<group>";
+		};
+		C48E164B1CFD3DAA00F5D3DD /* Depend */ = {
+			isa = PBXGroup;
+			children = (
+				CE11DC651EAF966C005373E8 /* TUP */,
+				CE93D81F1DF515EC002D445B /* AnyOffice */,
+			);
+			path = Depend;
+			sourceTree = "<group>";
+		};
+		C48E16C01CFD3DB400F5D3DD /* Call */ = {
+			isa = PBXGroup;
+			children = (
+				C4641EFE1DC71B4A001D7825 /* CCICSService.h */,
+				C4641EFF1DC71B4A001D7825 /* CCICSService.m */,
+			);
+			path = Call;
+			sourceTree = "<group>";
+		};
+		C48E16C31CFD3DB400F5D3DD /* CConf */ = {
+			isa = PBXGroup;
+			children = (
+				C48E16C41CFD3DB400F5D3DD /* CCConfCameraInfo.h */,
+				C48E16C51CFD3DB400F5D3DD /* CCConfCameraInfo.m */,
+				C48E16C61CFD3DB400F5D3DD /* CCConfInfo.h */,
+				C48E16C71CFD3DB400F5D3DD /* CCConfInfo.m */,
+				C48E16C81CFD3DB400F5D3DD /* CCConfUserInfo.h */,
+				C48E16C91CFD3DB400F5D3DD /* CCConfUserInfo.m */,
+			);
+			path = CConf;
+			sourceTree = "<group>";
+		};
+		C48E16CA1CFD3DB400F5D3DD /* TupManager */ = {
+			isa = PBXGroup;
+			children = (
+				C4641EF61DC71B1F001D7825 /* CCCallService.h */,
+				C4641EF71DC71B1F001D7825 /* CCCallService.m */,
+				C4641EF81DC71B1F001D7825 /* CCConfManager.h */,
+				C4641EF91DC71B1F001D7825 /* CCConfManager.mm */,
+			);
+			path = TupManager;
+			sourceTree = "<group>";
+		};
+		C48E16CF1CFD3DB400F5D3DD /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C4641F0A1DC71C0D001D7825 /* CCCommonUtil.h */,
+				C4641F0B1DC71C0D001D7825 /* CCCommonUtil.m */,
+				C4641F061DC71BD8001D7825 /* CCAccountInfo.h */,
+				C4641F071DC71BD8001D7825 /* CCAccountInfo.m */,
+				C4A278231D2F411B003B74F5 /* CCConstantInfo.h */,
+				C4A278241D2F411B003B74F5 /* CCConstantInfo.m */,
+				C48E16D21CFD3DB400F5D3DD /* CCDefineHead.h */,
+				C48E16D51CFD3DB400F5D3DD /* CCRequestClient.h */,
+				C48E16D61CFD3DB400F5D3DD /* CCRequestClient.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		C4A278331D349D42003B74F5 /* Log */ = {
+			isa = PBXGroup;
+			children = (
+				C4641EF21DC71AA4001D7825 /* CCLogger.h */,
+				C4641EF31DC71AA4001D7825 /* CCLogger.m */,
+			);
+			path = Log;
+			sourceTree = "<group>";
+		};
+		CE11DC651EAF966C005373E8 /* TUP */ = {
+			isa = PBXGroup;
+			children = (
+				CE11DC661EAF966C005373E8 /* include */,
+				CE11DC8B1EAF966C005373E8 /* lib */,
+			);
+			name = TUP;
+			path = ../../../../../platform/CC/iOS/TUP;
+			sourceTree = "<group>";
+		};
+		CE11DC661EAF966C005373E8 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				CE11DC671EAF966C005373E8 /* call_advanced_def.h */,
+				CE11DC681EAF966C005373E8 /* call_advanced_interface.h */,
+				CE11DC691EAF966C005373E8 /* call_def.h */,
+				CE11DC6A1EAF966C005373E8 /* call_interface.h */,
+				CE11DC6B1EAF966C005373E8 /* cmpt_def.h */,
+				CE11DC6C1EAF966C005373E8 /* cmpt_interface.h */,
+				CE11DC6D1EAF966C005373E8 /* dk_interface.h */,
+				CE11DC6E1EAF966C005373E8 /* httpapi.h */,
+				CE11DC6F1EAF966C005373E8 /* login_advanced_def.h */,
+				CE11DC701EAF966C005373E8 /* login_advanced_interface.h */,
+				CE11DC711EAF966C005373E8 /* login_def.h */,
+				CE11DC721EAF966C005373E8 /* login_interface.h */,
+				CE11DC731EAF966C005373E8 /* offlinefile_def.h */,
+				CE11DC741EAF966C005373E8 /* offlinefile_interface.h */,
+				CE11DC751EAF966C005373E8 /* rsa_encrypt_interface.h */,
+				CE11DC761EAF966C005373E8 /* securec.h */,
+				CE11DC771EAF966C005373E8 /* securectype.h */,
+				CE11DC781EAF966C005373E8 /* tup_conf_baseapi.h */,
+				CE11DC791EAF966C005373E8 /* tup_conf_basedef.h */,
+				CE11DC7A1EAF966C005373E8 /* tup_conf_extendapi.h */,
+				CE11DC7B1EAF966C005373E8 /* tup_conf_extenddef.h */,
+				CE11DC7C1EAF966C005373E8 /* tup_conf_otherapi.h */,
+				CE11DC7D1EAF966C005373E8 /* tup_conf_otherdef.h */,
+				CE11DC7E1EAF966C005373E8 /* tup_confctrl_advanced_def.h */,
+				CE11DC7F1EAF966C005373E8 /* tup_confctrl_advanced_interface.h */,
+				CE11DC801EAF966C005373E8 /* tup_confctrl_def.h */,
+				CE11DC811EAF966C005373E8 /* tup_confctrl_interface.h */,
+				CE11DC821EAF966C005373E8 /* tup_ctd_def.h */,
+				CE11DC831EAF966C005373E8 /* tup_ctd_interface.h */,
+				CE11DC841EAF966C005373E8 /* tup_def.h */,
+				CE11DC851EAF966C005373E8 /* tup_dns_interface.h */,
+				CE11DC861EAF966C005373E8 /* tup_eaddr_def.h */,
+				CE11DC871EAF966C005373E8 /* tup_eaddr_interface.h */,
+				CE11DC881EAF966C005373E8 /* tup_errdef.h */,
+				CE11DC891EAF966C005373E8 /* tup_openmedia_interface.h */,
+				CE11DC8A1EAF966C005373E8 /* tup_service_interface.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		CE11DC8B1EAF966C005373E8 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				CE11DC8C1EAF966C005373E8 /* libcrypto.a */,
+				CE11DC8D1EAF966C005373E8 /* libcurl.a */,
+				CE11DC8E1EAF966C005373E8 /* libhme-audio.a */,
+				CE11DC8F1EAF966C005373E8 /* libHME-Video.a */,
+				CE11DC901EAF966C005373E8 /* libHW_MPT_AUDIO_AAC_LIB.a */,
+				CE11DC911EAF966C005373E8 /* libHW_MPT_IOS_AMR_LIB.a */,
+				CE11DC921EAF966C005373E8 /* libHW_MPT_IOS_AMRWB_LIB.a */,
+				CE11DC931EAF966C005373E8 /* libHW_MPT_IOS_G722_LIB.a */,
+				CE11DC941EAF966C005373E8 /* libHW_MPT_IOS_G729AB_LIB.a */,
+				CE11DC951EAF966C005373E8 /* libHW_MPT_IOS_ILBC_LIB.a */,
+				CE11DC961EAF966C005373E8 /* libHW_MPT_IOS_OPUS_LIB.a */,
+				CE11DC971EAF966C005373E8 /* libipsi_crypto.a */,
+				CE11DC981EAF966C005373E8 /* libipsi_eap.a */,
+				CE11DC991EAF966C005373E8 /* libipsi_osal.a */,
+				CE11DC9A1EAF966C005373E8 /* libipsi_pse.a */,
+				CE11DC9B1EAF966C005373E8 /* libipsi_ssl.a */,
+				CE11DC9C1EAF966C005373E8 /* libjsoncpp.a */,
+				CE11DC9D1EAF966C005373E8 /* libminidopra.a */,
+				CE11DC9E1EAF966C005373E8 /* libplib.a */,
+				CE11DC9F1EAF966C005373E8 /* libsasl.a */,
+				CE11DCA01EAF966C005373E8 /* libsdp.a */,
+				CE11DCA11EAF966C005373E8 /* libsecurec.a */,
+				CE11DCA21EAF966C005373E8 /* libsipstacktup.a */,
+				CE11DCA31EAF966C005373E8 /* libsrtp.a */,
+				CE11DCA41EAF966C005373E8 /* libssl.a */,
+				CE11DCA51EAF966C005373E8 /* libtscios.a */,
+				CE11DCA61EAF966C005373E8 /* libtscsvn.a */,
+				CE11DCA71EAF966C005373E8 /* libtup_call_audio.a */,
+				CE11DCA81EAF966C005373E8 /* libtup_call_bfcp.a */,
+				CE11DCA91EAF966C005373E8 /* libtup_call_mediacommon.a */,
+				CE11DCAA1EAF966C005373E8 /* libtup_call_mediaservice.a */,
+				CE11DCAB1EAF966C005373E8 /* libtup_call_service.a */,
+				CE11DCAC1EAF966C005373E8 /* libtup_call_sip.a */,
+				CE11DCAD1EAF966C005373E8 /* libtup_call_video.a */,
+				CE11DCAE1EAF966C005373E8 /* libtup_cloudrecord.a */,
+				CE11DCAF1EAF966C005373E8 /* libtup_cmpt_service.a */,
+				CE11DCB01EAF966C005373E8 /* libtup_commonlib.a */,
+				CE11DCB11EAF966C005373E8 /* libtup_confctrl.a */,
+				CE11DCB21EAF966C005373E8 /* libtup_confmng.a */,
+				CE11DCB31EAF966C005373E8 /* libtup_corpdirectory.a */,
+				CE11DCB41EAF966C005373E8 /* libtup_ctd.a */,
+				CE11DCB51EAF966C005373E8 /* libtup_cwmp_h5.a */,
+				CE11DCB61EAF966C005373E8 /* libtup_dns.a */,
+				CE11DCB71EAF966C005373E8 /* libtup_eaddr.a */,
+				CE11DCB81EAF966C005373E8 /* libtup_eaddr_h5.a */,
+				CE11DCB91EAF966C005373E8 /* libtup_exception.a */,
+				CE11DCBA1EAF966C005373E8 /* libtup_ftp.a */,
+				CE11DCBB1EAF966C005373E8 /* libtup_httpofflinefile.a */,
+				CE11DCBC1EAF966C005373E8 /* libtup_https_clt.a */,
+				CE11DCBD1EAF966C005373E8 /* libtup_https_srv.a */,
+				CE11DCBE1EAF966C005373E8 /* libtup_httptrans.a */,
+				CE11DCBF1EAF966C005373E8 /* libtup_ipdetect.a */,
+				CE11DCC01EAF966C005373E8 /* libtup_ldap.a */,
+				CE11DCC11EAF966C005373E8 /* libtup_ldapdisasterrecovery.a */,
+				CE11DCC21EAF966C005373E8 /* libtup_ldapfrontstage.a */,
+				CE11DCC31EAF966C005373E8 /* libtup_ldapstack.a */,
+				CE11DCC41EAF966C005373E8 /* libtup_login.a */,
+				CE11DCC51EAF966C005373E8 /* libtup_logone.a */,
+				CE11DCC61EAF966C005373E8 /* libtup_msg.a */,
+				CE11DCC71EAF966C005373E8 /* libtup_openmedia.a */,
+				CE11DCC81EAF966C005373E8 /* libtup_os_adapter.a */,
+				CE11DCC91EAF966C005373E8 /* libtup_publiclib.a */,
+				CE11DCCA1EAF966C005373E8 /* libtup_rsa_encrypt.a */,
+				CE11DCCB1EAF966C005373E8 /* libtup_socket.a */,
+				CE11DCCC1EAF966C005373E8 /* libtup_socket_stg.a */,
+				CE11DCCD1EAF966C005373E8 /* libtup_support.a */,
+				CE11DCCE1EAF966C005373E8 /* libtup_xml.a */,
+				CE11DCCF1EAF966C005373E8 /* libTupConf.a */,
+				CE11DCD01EAF966C005373E8 /* libtupService.a */,
+				CE11DCD11EAF966C005373E8 /* libuspsdk.a */,
+				CE11DCD21EAF966C005373E8 /* libvcom.a */,
+				CE11DCD31EAF966C005373E8 /* libwebsockets.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		CE93D81F1DF515EC002D445B /* AnyOffice */ = {
+			isa = PBXGroup;
+			children = (
+				CECA719A1E4D8FBD000EB9E7 /* libs */,
+			);
+			name = AnyOffice;
+			path = ../../../../../platform/CC/iOS/AnyOffice;
+			sourceTree = "<group>";
+		};
+		CECA719A1E4D8FBD000EB9E7 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				CEACBFC31E6EA51700E27FE5 /* libsvnapi_sim.a */,
+				CECA71A01E4D8FBD000EB9E7 /* libsvnapi.a */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C48E163D1CFD3D4100F5D3DD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE11DCDF1EAF966C005373E8 /* login_interface.h in Headers */,
+				C4641F041DC71B96001D7825 /* CCSDK.h in Headers */,
+				CE11DCE01EAF966C005373E8 /* offlinefile_def.h in Headers */,
+				CE11DCDB1EAF966C005373E8 /* httpapi.h in Headers */,
+				CE11DCF11EAF966C005373E8 /* tup_def.h in Headers */,
+				CE11DCF01EAF966C005373E8 /* tup_ctd_interface.h in Headers */,
+				CE11DCD81EAF966C005373E8 /* cmpt_def.h in Headers */,
+				C48E16441CFD3D4100F5D3DD /* CCIOSSDK.h in Headers */,
+				C48E16DB1CFD3DB400F5D3DD /* CCConfInfo.h in Headers */,
+				CE11DCEB1EAF966C005373E8 /* tup_confctrl_advanced_def.h in Headers */,
+				CE11DCE61EAF966C005373E8 /* tup_conf_basedef.h in Headers */,
+				C48E16EF1CFD3DC100F5D3DD /* CCNotificationsDefine.h in Headers */,
+				C4641EF41DC71AA4001D7825 /* CCLogger.h in Headers */,
+				CE11DCE31EAF966C005373E8 /* securec.h in Headers */,
+				CE11DCDC1EAF966C005373E8 /* login_advanced_def.h in Headers */,
+				CE11DCF61EAF966C005373E8 /* tup_openmedia_interface.h in Headers */,
+				CE11DCDD1EAF966C005373E8 /* login_advanced_interface.h in Headers */,
+				CE11DCE71EAF966C005373E8 /* tup_conf_extendapi.h in Headers */,
+				CE11DCED1EAF966C005373E8 /* tup_confctrl_def.h in Headers */,
+				CE11DCD41EAF966C005373E8 /* call_advanced_def.h in Headers */,
+				CE11DCF41EAF966C005373E8 /* tup_eaddr_interface.h in Headers */,
+				C48E16F11CFD3DC100F5D3DD /* CCCommonDefine.h in Headers */,
+				C4641F001DC71B4A001D7825 /* CCICSService.h in Headers */,
+				CE11DCF21EAF966C005373E8 /* tup_dns_interface.h in Headers */,
+				CE11DCEA1EAF966C005373E8 /* tup_conf_otherdef.h in Headers */,
+				CE11DCD61EAF966C005373E8 /* call_def.h in Headers */,
+				CE11DCE91EAF966C005373E8 /* tup_conf_otherapi.h in Headers */,
+				CE11DCE81EAF966C005373E8 /* tup_conf_extenddef.h in Headers */,
+				CE11DCE41EAF966C005373E8 /* securectype.h in Headers */,
+				CE11DCD51EAF966C005373E8 /* call_advanced_interface.h in Headers */,
+				CE11DCE21EAF966C005373E8 /* rsa_encrypt_interface.h in Headers */,
+				CE11DCF51EAF966C005373E8 /* tup_errdef.h in Headers */,
+				CE11DCD71EAF966C005373E8 /* call_interface.h in Headers */,
+				CE11DCEE1EAF966C005373E8 /* tup_confctrl_interface.h in Headers */,
+				CE11DCEF1EAF966C005373E8 /* tup_ctd_def.h in Headers */,
+				C48E16D91CFD3DB400F5D3DD /* CCConfCameraInfo.h in Headers */,
+				C48E16E81CFD3DB400F5D3DD /* CCRequestClient.h in Headers */,
+				CE11DCD91EAF966C005373E8 /* cmpt_interface.h in Headers */,
+				CE11DCEC1EAF966C005373E8 /* tup_confctrl_advanced_interface.h in Headers */,
+				CE11DCE11EAF966C005373E8 /* offlinefile_interface.h in Headers */,
+				C48E16E51CFD3DB400F5D3DD /* CCDefineHead.h in Headers */,
+				CE11DCDE1EAF966C005373E8 /* login_def.h in Headers */,
+				C4641EFC1DC71B1F001D7825 /* CCConfManager.h in Headers */,
+				C4641F0C1DC71C0D001D7825 /* CCCommonUtil.h in Headers */,
+				C4641EFA1DC71B1F001D7825 /* CCCallService.h in Headers */,
+				C48E16DD1CFD3DB400F5D3DD /* CCConfUserInfo.h in Headers */,
+				CE11DCF71EAF966C005373E8 /* tup_service_interface.h in Headers */,
+				CE11DCF31EAF966C005373E8 /* tup_eaddr_def.h in Headers */,
+				C4641F081DC71BD8001D7825 /* CCAccountInfo.h in Headers */,
+				CE11DCDA1EAF966C005373E8 /* dk_interface.h in Headers */,
+				CE11DCE51EAF966C005373E8 /* tup_conf_baseapi.h in Headers */,
+				C4A278251D2F411B003B74F5 /* CCConstantInfo.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C48E163F1CFD3D4100F5D3DD /* CCIOSSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C48E16481CFD3D4100F5D3DD /* Build configuration list for PBXNativeTarget "CCIOSSDK" */;
+			buildPhases = (
+				C48E163B1CFD3D4100F5D3DD /* Sources */,
+				C48E163C1CFD3D4100F5D3DD /* Frameworks */,
+				C48E163D1CFD3D4100F5D3DD /* Headers */,
+				C48E163E1CFD3D4100F5D3DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CCIOSSDK;
+			productName = CCIOSSDK;
+			productReference = C48E16401CFD3D4100F5D3DD /* CCIOSSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C48E16371CFD3D4100F5D3DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = ICP;
+				TargetAttributes = {
+					C48E163F1CFD3D4100F5D3DD = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = QDD3W348GG;
+					};
+				};
+			};
+			buildConfigurationList = C48E163A1CFD3D4100F5D3DD /* Build configuration list for PBXProject "CCIOSSDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C48E16361CFD3D4100F5D3DD;
+			productRefGroup = C48E16411CFD3D4100F5D3DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C48E163F1CFD3D4100F5D3DD /* CCIOSSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C48E163E1CFD3D4100F5D3DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C48E163B1CFD3D4100F5D3DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4641EF51DC71AA4001D7825 /* CCLogger.m in Sources */,
+				C4641F0D1DC71C0D001D7825 /* CCCommonUtil.m in Sources */,
+				C48E16DA1CFD3DB400F5D3DD /* CCConfCameraInfo.m in Sources */,
+				C4A278261D2F411B003B74F5 /* CCConstantInfo.m in Sources */,
+				C4641F091DC71BD8001D7825 /* CCAccountInfo.m in Sources */,
+				C48E16E91CFD3DB400F5D3DD /* CCRequestClient.m in Sources */,
+				C4641F051DC71B96001D7825 /* CCSDK.m in Sources */,
+				C4641EFD1DC71B1F001D7825 /* CCConfManager.mm in Sources */,
+				C4641EFB1DC71B1F001D7825 /* CCCallService.m in Sources */,
+				C4641F011DC71B4A001D7825 /* CCICSService.m in Sources */,
+				C48E16DE1CFD3DB400F5D3DD /* CCConfUserInfo.m in Sources */,
+				C48E16DC1CFD3DB400F5D3DD /* CCConfInfo.m in Sources */,
+				C48E16F01CFD3DC100F5D3DD /* CCNotificationsDefine.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C48E16461CFD3D4100F5D3DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C48E16471CFD3D4100F5D3DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C48E16491CFD3D4100F5D3DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = QDD3W348GG;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_ENABLE_CPP_RTTI = NO;
+				INFOPLIST_FILE = CCIOSSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/../../../../platform/CC/iOS/TUP/lib",
+					"$(PROJECT_DIR)/../../../../platform/CC/iOS/AnyOffice/libs",
+				);
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huawei.CCIOSSDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C48E164A1CFD3D4100F5D3DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = QDD3W348GG;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_ENABLE_CPP_RTTI = NO;
+				INFOPLIST_FILE = CCIOSSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/../../../../platform/CC/iOS/TUP/lib",
+					"$(PROJECT_DIR)/../../../../platform/CC/iOS/AnyOffice/libs",
+				);
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huawei.CCIOSSDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C48E163A1CFD3D4100F5D3DD /* Build configuration list for PBXProject "CCIOSSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C48E16461CFD3D4100F5D3DD /* Debug */,
+				C48E16471CFD3D4100F5D3DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C48E16481CFD3D4100F5D3DD /* Build configuration list for PBXNativeTarget "CCIOSSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C48E16491CFD3D4100F5D3DD /* Debug */,
+				C48E164A1CFD3D4100F5D3DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C48E16371CFD3D4100F5D3DD /* Project object */;
+}

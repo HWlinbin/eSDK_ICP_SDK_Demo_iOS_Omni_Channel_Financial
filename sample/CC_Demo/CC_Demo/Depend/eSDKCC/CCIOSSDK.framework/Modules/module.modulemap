@@ -1,0 +1,6 @@
+framework module CCIOSSDK {
+  umbrella header "CCIOSSDK.h"
+
+  export *
+  module * { export * }
+}

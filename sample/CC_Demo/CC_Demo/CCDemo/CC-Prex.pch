@@ -1,0 +1,20 @@
+//
+//  CC-Prex.pch
+//  CCDemo
+//
+//  Created by mwx325691 on 16/4/1.
+//  Copyright © 2016年 mwx325691. All rights reserved.
+//
+
+#ifndef CC_Prex_pch
+#define CC_Prex_pch
+
+#import <CCIOSSDK/CCIOSSDK.h>
+#import <CCIOSSDK/CCLogger.h>
+
+#import "CCustom.h"
+#import "CCDemoUtil.h"
+#import "TPSetViewController.h"
+#import "LoginInfo.h"
+
+#endif /* CC_Prex_pch */

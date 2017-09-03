@@ -1,0 +1,178 @@
+/* 
+  Localizable.strings
+  CCDemo
+
+  Created by mwx325691 on 16/8/12.
+  Copyright © 2016年 mwx325691. All rights reserved.
+*/
+"userName" = "userName";
+
+"callData" = "callData";
+
+"accessCode" = "accessCode";
+
+"vndId" = "vndId";
+
+"Login" = "Login";
+
+"Logout" = "Logout";
+
+"Call" = "Call";
+
+"LoginResult" = "Login Failed";
+
+"LoginInterface" = "Login Interface Failed";
+
+"LogoutResult" = "Logout Failed";
+
+"Host" = "Set Host Interface Failed";
+
+"Message" = "Message";
+
+"OK" = "OK";
+
+"NetLevel" = "Net Level";
+
+"Video" = "Video";
+
+"Audio" = "Audio";
+
+"Chat" = "Chat";
+
+"AudioHangUp" = "EndAudio";
+
+"VideoHangUp" = "EndVideo";
+
+"Receiver" = "Receiver";
+
+"Speaker" = "Speaker";
+
+"BackCamera" = "BackCam";
+
+"FrontCamera" = "FrontCam";
+
+"Mute" = "Mute";
+
+"Cancel Mute" = "CancelMute";
+
+"MicMute" = "MicMute";
+
+"OpenMic" = "OpenMic";
+
+"CallEnd" = "Call End";
+
+"ReleaseCall" = "please release call";
+
+"VideoInfo" = "VideoInfo";
+
+"CloseInfo" = "CloseInfo";
+
+"Success" = "Call Success";
+
+"Fail" = "Call Failed";
+
+"Queue" = "Is Queuing";
+
+"Cancel" = "Cancel";
+
+"QueueTimeOut" = "Queue Time Out";
+
+"QueueEnd" = "Queue End";
+
+"Position" = "Position";
+
+"WaitTime" = "WaitTime";
+
+"NoVideo" = "Not Have Video";
+
+"Current" = "Current Call Not End,Please Wait";
+
+"CallInterface"  = "Call Interface Failed";
+
+"Calling" = "Calling";
+
+"SendLossFraction" = "SendLossFraction";
+
+"SendDelay" = "SendDelay";
+
+"ReceiveLossFraction" = "ReceiveLossFraction";
+
+"ReceiveDelay" = "ReceiveDelay";
+
+"EncodeSize" = "EncodeSize";
+
+"DecodeSize" = "DecodeSize";
+
+"Rotate" = "Rotate";
+
+"Back" = "Back";
+
+"CallTimeOut" = "Call Time Out";
+
+"NoAudio" = "No Have Audio";
+
+"NoMessage" = "Message is nil";
+
+"SendInterface" = "Send Message Interface Failed";
+
+"Send" = "Send";
+
+"Receive" = "Receive";
+
+"SendFailed" = "Message Send Failed";
+
+"LeaveConf" = "User Leave Conf";
+
+"Share" = "Share";
+
+"Mode" = "Mode";
+
+"NoShare" = "No Share Screen";
+
+"PlaceHolder" = "input text...";
+
+"SipIp" = "input sip ip";
+
+"SipPort" = "input sip port";
+
+"SetSip" = "set sip address and accesscode";
+
+"SetAccesscode" = "input accesscode";
+
+"SipError" = "sip or accesscode error，input again";
+
+"Cancel" = "Cancel";
+
+"AccesscodeError" = "accesscode error";
+
+"Remind" = "remind";
+
+"IP" = "ip is invalid";
+
+"Port" = "port is invalid";
+
+"ACode" = "accesscode is invalid";
+
+"ParamError" = "param is invalid";
+
+"GetCode"="get code";
+
+"LoginIP" = "Login IP";
+
+"LoginPort" = "Port";
+
+"Position"="Position";
+
+"OnlineAgentNum" = "OnlineAgentNum";
+
+"LongsWaitTime" = "LongsWaitTime";
+
+"Canceled" = "Canceled";
+
+"Canceling" = "Canceling";
+
+"vndIdError" = "vndId is nil";
+
+"userNameError" = "userName is nil";
+
+"GetCodeError"="Get verify code fail!";

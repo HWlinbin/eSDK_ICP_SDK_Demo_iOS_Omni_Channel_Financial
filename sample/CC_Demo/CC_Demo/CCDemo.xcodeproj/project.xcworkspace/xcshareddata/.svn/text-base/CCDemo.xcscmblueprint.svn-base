@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "2c112182-359e-11e5-8dc8-112ffb5a931e++6459",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "2c112182-359e-11e5-8dc8-112ffb5a931e++6459" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "2c112182-359e-11e5-8dc8-112ffb5a931e++6459" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "EC4BE425-CA65-4AC9-8EC0-E6912D32520A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "2c112182-359e-11e5-8dc8-112ffb5a931e++6459" : "Client_Ext\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CCDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Test\/Demo\/eSDK_CC_Demo\/iOS\/CC_Demo\/CCDemo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/szxsvn06-nrd:6801\/svn\/MKTS_eSDK_Green_SVN",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2c112182-359e-11e5-8dc8-112ffb5a931e++6459"
+    }
+  ]
+}
